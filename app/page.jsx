@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
@@ -40,8 +41,10 @@ const Home = () => {
             <div className="order-1 lg:order-none mb-8 lg:mb-0">
               <Photo></Photo>
             </div>
+
           </div>
         </div>
+        <Stats></Stats>
       </section>
     </div>
   );
